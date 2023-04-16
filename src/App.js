@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+    * @description      : 
+    * @author           : ellen
+    * @group            : 
+    * @created          : 16/04/2023 - 18:08:46
+    * 
+    * MODIFICATION LOG
+    * - Version         : 1.0.0
+    * - Date            : 16/04/2023
+    * - Author          : ellen
+    * - Modification    : 
+**/
+
+import { Auth } from './components/auth';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <Auth />
+
+       
+       </div>
   );
 }
 
